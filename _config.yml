@@ -22,18 +22,28 @@ title: I LOVE Penny Stocks!!!
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   For entertainment purposes only. NOT financial/investment advice.
+  All views expressed are my own and do not reflect the views of my employer.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ilovepennystocks.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: PennyStockLuvr
 # github_username:  jekyll
 
+author: PennyStockLuvr
+paginate: 5
+subscribe: false
+
+
 # Settings for Hamilton theme
-skin: midnight
+skin: ilpsTheme
 
 # Build settings
-theme: jekyll-theme-hamilton
+# theme: jekyll-theme-hamilton
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+# - jekyll-theme-hamilton
+
+remote_theme: ngzhio/jekyll-theme-hamilton
 
 # Exclude from processing.
 # The following items will not be processed, by default.
